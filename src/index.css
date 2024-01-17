@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.errorDiv, .loadingDiv, .dataDiv {
+  position: relative;
+  padding: 20px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: aquamarine;
+}
+.dataDiv {
+  background-color:beige;
+}
+.loadingDiv {
+  background-color: blue;
+}
